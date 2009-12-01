@@ -1,6 +1,6 @@
 set :keep_releases, 5
-set :application,   'test'
-set :repository,    'git@github.com:wwwjscom/test.git'
+set :application,   'test2'
+set :repository,    'git@github.com:wwwjscom/test2.git'
 set :deploy_to,     "/www/#{application}"
 set :deploy_via,    :export
 set :monit_group,   "#{application}"
